@@ -1,0 +1,427 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8328255180201807434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Points
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 511.64856
+    width: 525.2968
+    height: 509.08057
+  guiRect:
+    serializedVersion: 2
+    x: 0
+    y: 512
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 1883.3378
+    y: 1736.8335
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 2155.338
+    y: 1464.8335
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 1899.3378
+    y: 1480.8335
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 2d0865b5586bfe249a6bbef64a1b6e50, type: 3}
+  - name: New TextureGroup
+    texture: {fileID: 2800000, guid: bdbb9f514a52c4b4ca41845a347fc6df, type: 3}
+  - name: New TextureGroup
+    texture: {fileID: 2800000, guid: 99305010650bd0d4aa361e53a49e70da, type: 3}
+  - name: New TextureGroup
+    texture: {fileID: 2800000, guid: 1ff83f401f4ba274da0a4ff4089d9df3, type: 3}
+  modelGroups:
+  - name: Points
+    meshes:
+    - {fileID: -7501553670813437430, guid: 7010350a816f431469e94a02638fcb18, type: 3}
+--- !u!114 &-7094746859931170647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: EnemyShip2
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 4.54541
+    width: 520.7517
+    height: 522.7169
+  guiRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 1883.3378
+    y: 1224.8335
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 2155.338
+    y: 952.83344
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 1899.3378
+    y: 968.83344
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 93724003abe256e40be576ad26205205, type: 3}
+  - name: MaskMap
+    texture: {fileID: 2800000, guid: 7aa0fcdce7b35434bb21ff97b525a817, type: 3}
+  - name: NormalMap
+    texture: {fileID: 2800000, guid: 875c4a027102709418594deed68aa693, type: 3}
+  - name: Emissive
+    texture: {fileID: 2800000, guid: e6cba92cf4ceeb74fb2c77442df8a1a9, type: 3}
+  modelGroups:
+  - name: Enemyship2
+    meshes:
+    - {fileID: 2577605498132430527, guid: bec4ee70f288e8b4a8686c6895543418, type: 3}
+--- !u!114 &-6460077047928614159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: spacerock
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 512.98883
+    y: 1029.5436
+    width: 511.01117
+    height: 509.08057
+  guiRect:
+    serializedVersion: 2
+    x: 512
+    y: 1024
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 2395.338
+    y: 2248.8335
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 2667.338
+    y: 1976.8335
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 2411.338
+    y: 1992.8335
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 5af6657a47c51bd45951155a00debcf6, type: 3}
+  - name: MaskMap
+    texture: {fileID: 2800000, guid: 8e5466aa647080148b73652d510a9de9, type: 3}
+  - name: NormalMap
+    texture: {fileID: 2800000, guid: 3e6e447129ab88b4180098b0437218da, type: 3}
+  - name: Emissive
+    texture: {fileID: 2800000, guid: 997a43b767814dd0a7642ec9b78cba41, type: 3}
+  modelGroups:
+  - name: spacerock
+    meshes:
+    - {fileID: 4199401309831131938, guid: 3e559807d699cd24a8aacdcf628d9927, type: 3}
+--- !u!114 &-3104510314608552022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Fueltank
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 498.7032
+    y: 4.545471
+    width: 525.2968
+    height: 509.08057
+  guiRect:
+    serializedVersion: 2
+    x: 512
+    y: 0
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 2395.338
+    y: 1224.8335
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 2667.338
+    y: 952.83344
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 2411.338
+    y: 968.83344
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 6612e404501b518408680cf59e7c18bf, type: 3}
+  - name: New TextureGroup
+    texture: {fileID: 2800000, guid: bdbb9f514a52c4b4ca41845a347fc6df, type: 3}
+  - name: New TextureGroup
+    texture: {fileID: 2800000, guid: 99305010650bd0d4aa361e53a49e70da, type: 3}
+  - name: New TextureGroup
+    texture: {fileID: 2800000, guid: 1ff83f401f4ba274da0a4ff4089d9df3, type: 3}
+  modelGroups:
+  - name: Fuel
+    meshes:
+    - {fileID: -7501553670813437430, guid: 0869463a30d7af84cafe7b9f96ebd2f2, type: 3}
+--- !u!114 &-1324309302829873196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: PlayerShip
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 498.7032
+    y: 525.95807
+    width: 525.2968
+    height: 504.53516
+  guiRect:
+    serializedVersion: 2
+    x: 512
+    y: 512
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 2395.338
+    y: 1736.8335
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 2667.338
+    y: 1464.8335
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 2411.338
+    y: 1480.8335
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: adf0c1a7d9db65446a8fd020e25db1f2, type: 3}
+  - name: New TextureGroup
+    texture: {fileID: 2800000, guid: acb58dc8b127f7a4d83f087c7ffe8ca6, type: 3}
+  - name: New TextureGroup
+    texture: {fileID: 2800000, guid: 31e8734ddf1e2da4a8c4e35732978cfe, type: 3}
+  - name: New TextureGroup
+    texture: {fileID: 2800000, guid: b5216012b9430bd44bc325adc2d4411c, type: 3}
+  modelGroups:
+  - name: PlayerShip
+    meshes:
+    - {fileID: -5301284266570743018, guid: 7a0cb6591629ba64c9be05e943aebbba, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892d1a7aeb4cc284dbf62e69e125db52, type: 3}
+  m_Name: ActiveMeshes_01
+  m_EditorClassIdentifier: 
+  textureQuads:
+  - {fileID: -7094746859931170647}
+  - {fileID: 8911636051158130420}
+  - {fileID: 3079725806498243949}
+  - {fileID: -3104510314608552022}
+  - {fileID: -1324309302829873196}
+  - {fileID: -8328255180201807434}
+  - {fileID: -6460077047928614159}
+  selectedTextureQuad: {fileID: 0}
+  showTextures: 1
+  exportSettings: {fileID: 11400000, guid: 313a86dbce8555c498d77339cc3e41b1, type: 2}
+  textureAtlasSize: {x: 1024, y: 2048}
+  textureGroupRegistration:
+  - name: Albedo
+  - name: MaskMap
+  - name: NormalMap
+  - name: Emissive
+--- !u!114 &3079725806498243949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Enemyship
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 1036.3616
+    width: 525.2968
+    height: 509.08057
+  guiRect:
+    serializedVersion: 2
+    x: 0
+    y: 1024
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 1883.3378
+    y: 2248.8335
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 2155.338
+    y: 1976.8335
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 1899.3378
+    y: 1992.8335
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 7c4e41be83e4f9c41b6da483133045c8, type: 3}
+  - name: New TextureGroup
+    texture: {fileID: 2800000, guid: 7aa0fcdce7b35434bb21ff97b525a817, type: 3}
+  - name: New TextureGroup
+    texture: {fileID: 2800000, guid: 875c4a027102709418594deed68aa693, type: 3}
+  - name: New TextureGroup
+    texture: {fileID: 2800000, guid: a58995050c251a647812387b1a9750bd, type: 3}
+  modelGroups:
+  - name: EnemyShip
+    meshes:
+    - {fileID: 2577605498132430527, guid: 845f755ce3aea1749a92558ea8881933, type: 3}
+--- !u!114 &8911636051158130420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: new Quad
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 128
+    height: 128
+  guiRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 128
+    height: 128
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  dragRectWidth:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  dragRectPos:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 0}
+  - name: New TextureGroup
+    texture: {fileID: 0}
+  - name: New TextureGroup
+    texture: {fileID: 0}
+  - name: New TextureGroup
+    texture: {fileID: 0}
+  modelGroups: []

@@ -4881,6 +4881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f10fe677e0e00e4fae7f95a5a4d02d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  topBound: 30
 --- !u!54 &-1897112513601383194
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4928,6 +4929,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyProjectile: {fileID: 6228937090404927098, guid: 534e3d3b3e1044d46973a80511fc9de2, type: 3}
+  ShootRate: 1
 --- !u!82 &2498673772741101762
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5075,6 +5077,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 11.585537
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 845f755ce3aea1749a92558ea8881933, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 845f755ce3aea1749a92558ea8881933, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 845f755ce3aea1749a92558ea8881933, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 845f755ce3aea1749a92558ea8881933, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 845f755ce3aea1749a92558ea8881933, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 845f755ce3aea1749a92558ea8881933, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50e4c48441a6bb64fb1a75b369dce28f, type: 2}
+    - target: {fileID: -5754084199372789682, guid: 845f755ce3aea1749a92558ea8881933, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 17bddaccaf3ee344a8587d9b028b7d17, type: 2}
     - target: {fileID: 919132149155446097, guid: 845f755ce3aea1749a92558ea8881933, type: 3}
       propertyPath: m_Name
       value: enemyship

@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18cec05da9fbf554f961c659e00c513a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  Speed: 10
 --- !u!65 &7887898941652733329
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75,6 +75,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f10fe677e0e00e4fae7f95a5a4d02d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  topBound: 30
 --- !u!114 &4808908843338784452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,6 +188,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3e559807d699cd24a8aacdcf628d9927, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3e559807d699cd24a8aacdcf628d9927, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3e559807d699cd24a8aacdcf628d9927, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3e559807d699cd24a8aacdcf628d9927, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3e559807d699cd24a8aacdcf628d9927, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3e559807d699cd24a8aacdcf628d9927, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50e4c48441a6bb64fb1a75b369dce28f, type: 2}
+    - target: {fileID: -5754084199372789682, guid: 3e559807d699cd24a8aacdcf628d9927, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 2a90708b7d6e21c4fb251fa471d99307, type: 2}
     - target: {fileID: 919132149155446097, guid: 3e559807d699cd24a8aacdcf628d9927, type: 3}
       propertyPath: m_Name
       value: spacerock
@@ -217,5 +246,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 198cbd456054c9b4787194e24b903678, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7094253654716314354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3876738423655193896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb6213ab535bbe4db8bcd8616be03c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

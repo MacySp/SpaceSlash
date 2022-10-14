@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.030117568, g: 0.078683235, b: 0.16928035, a: 1}
+  m_IndirectSpecularColor: {r: 0.010487316, g: 0.05298409, b: 0.1531921, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -747,110 +747,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 203787386, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: Death
-      value: 
-      objectReference: {fileID: 5967775177206233748, guid: 186cfae0ba77a424c9b48cd37f220401, type: 3}
-    - target: {fileID: 203787386, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: speed
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 203787386, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: shipRotationTime
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 354830583, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: HitFX
-      value: 
-      objectReference: {fileID: 2631430168834275193, guid: 77cd286fc2eb3294fade384187d88139, type: 3}
-    - target: {fileID: 354830583, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: hitFX
-      value: 
-      objectReference: {fileID: 2631430168834275193, guid: 77cd286fc2eb3294fade384187d88139, type: 3}
-    - target: {fileID: 354830583, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: FuelFX
-      value: 
-      objectReference: {fileID: 5967775177206233748, guid: 5d02b6b731b76424ea5fcb6362143217, type: 3}
-    - target: {fileID: 354830583, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: PointsFX
-      value: 
-      objectReference: {fileID: 5967775177206233748, guid: 84ce811a63313dc47adbce2c362461e4, type: 3}
-    - target: {fileID: 354830583, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: PickupSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 4aafd944b4b2b0a46b806cafe4952e6e, type: 3}
-    - target: {fileID: 354830583, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: pickupSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 4aafd944b4b2b0a46b806cafe4952e6e, type: 3}
-    - target: {fileID: 354830583, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: AsteroidDamage
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 354830583, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: EnemyHitDamage
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 354830583, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: PointsPickupSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 4cff23000865e364fb213ec403d331cd, type: 3}
-    - target: {fileID: 354830583, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: pointsPickupSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 4cff23000865e364fb213ec403d331cd, type: 3}
-    - target: {fileID: 354830583, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: HitSounds.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 354830583, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: hitSounds.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 354830583, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: HitSounds.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: ed4d60ba81814d84684e809599ac5d7e, type: 3}
-    - target: {fileID: 354830583, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: HitSounds.Array.data[1]
-      value: 
-      objectReference: {fileID: 8300000, guid: 9d0324b42404f804a8c0e7e01e1e6614, type: 3}
-    - target: {fileID: 354830583, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: HitSounds.Array.data[2]
-      value: 
-      objectReference: {fileID: 8300000, guid: 30ba2d69b1ca3f143a86ca1f4a99ab17, type: 3}
-    - target: {fileID: 354830583, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: hitSounds.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: ed4d60ba81814d84684e809599ac5d7e, type: 3}
-    - target: {fileID: 354830583, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: hitSounds.Array.data[1]
-      value: 
-      objectReference: {fileID: 8300000, guid: 9d0324b42404f804a8c0e7e01e1e6614, type: 3}
-    - target: {fileID: 354830583, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: hitSounds.Array.data[2]
-      value: 
-      objectReference: {fileID: 8300000, guid: 30ba2d69b1ca3f143a86ca1f4a99ab17, type: 3}
-    - target: {fileID: 354830585, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: m_Mass
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 354830585, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 354830585, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2035264813749217965, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: Loop
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2035264813749217965, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 2ddbfe82a2439594cad2f119de90fd3b, type: 3}
     - target: {fileID: 2310336700120372528, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -899,12 +795,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerShip_pref
       objectReference: {fileID: 0}
-    - target: {fileID: 5953764385906072328, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
-    m_RemovedComponents:
-    - {fileID: 1326127374, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d988d5e3b7d9f6418c6dadc8df5187c, type: 3}
 --- !u!1 &279243565
 GameObject:

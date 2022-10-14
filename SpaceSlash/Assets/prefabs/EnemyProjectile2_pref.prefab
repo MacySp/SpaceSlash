@@ -12,18 +12,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3003269150483252359, guid: c215a7302cfe443408620f515e120515, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.046904135
-      objectReference: {fileID: 0}
-    - target: {fileID: 3003269150483252359, guid: c215a7302cfe443408620f515e120515, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.4395381
-      objectReference: {fileID: 0}
-    - target: {fileID: 3003269150483252359, guid: c215a7302cfe443408620f515e120515, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.046904135
-      objectReference: {fileID: 0}
-    - target: {fileID: 3003269150483252359, guid: c215a7302cfe443408620f515e120515, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -67,30 +55,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: laser_enemy
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5432319069788498632, guid: c215a7302cfe443408620f515e120515, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c215a7302cfe443408620f515e120515, type: 3}
---- !u!1 &6957287261855660585 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9204795714181664082, guid: c215a7302cfe443408620f515e120515, type: 3}
-  m_PrefabInstance: {fileID: 2248209949401790331}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &2191604076254164114
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6957287261855660585}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1001 &3012804413761866536
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -168,7 +134,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9204795714181664082, guid: c215a7302cfe443408620f515e120515, type: 3}
       propertyPath: m_Name
-      value: laser_enemy_pref
+      value: EnemyProjectile2_pref
       objectReference: {fileID: 0}
     - target: {fileID: 9204795714181664082, guid: c215a7302cfe443408620f515e120515, type: 3}
       propertyPath: m_TagString
@@ -312,6 +278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f10fe677e0e00e4fae7f95a5a4d02d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  topBound: 30
 --- !u!114 &-1154921835164830790
 MonoBehaviour:
   m_ObjectHideFlags: 0

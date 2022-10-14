@@ -87,8 +87,8 @@ public class PlayerControler : MonoBehaviour
         // Get input
         if (game.IsPlayerAlive)
         {
-            horizontalInput = joystick.Horizontal;
-            forwardInput = joystick.Vertical;
+            horizontalInput = Input.GetAxis("Horizontal");
+            forwardInput = Input.GetAxis("Vertical");
         }
         else
         {
